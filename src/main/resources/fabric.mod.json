@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "bloodshed",
+  "version": "${version}",
+
+  "name": "Bloodshed",
+  "description": "Blood spills everywhere!",
+  "authors": [
+    "whipowill", "TheTarasus_01"
+  ],
+  "contact": {
+    "sources": "https://github.com/whipowill/mc-mod-bloodshed"
+  },
+
+  "license": "MIT",
+  "icon": "assets/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.whipowill.bloodshed.Bloodshed"
+    ],
+    "client": [
+      "com.whipowill.bloodshed.BloodshedClient"
+    ]
+  },
+  "mixins": [
+    "bloodshed.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.18.2",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
