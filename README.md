@@ -6,7 +6,7 @@ A Minecraft mod for adding blood to the game.
 
 ## History
 
-I wanted a gore mod but couldn't find any for Fabric on v1.18.2, but I did find a mod by Tarasus.  His mod only had bleeding for players.  I took that, modified it to apply to all mobs, and added a config to control how it worked.  I also added a fadeout on the blood splatters.
+I wanted a gore mod and couldn't find one for Fabric on v1.18.2, but I did find a mod by [Rasus](https://github.com/TheTarasus/RasusBloodshed).  His mod only had bleeding for players.  I took that, modified it to apply to all mobs, and added a config to control how it worked.  I also added a fadeout on the blood splatters.
 
 ## Configuration
 

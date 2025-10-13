@@ -33,13 +33,14 @@ public class Bloodshed implements ModInitializer {
         CONFIG = BloodshedConfig.load();
         LOGGER.info("Config loaded: fadeTime={}, goreValue={}", CONFIG.bloodFadeTime, CONFIG.goreValue);
 
-        // NOW initialize blocks and items that depend on CONFIG
-        BLOOD_BLOCK = new BloodBlock(AbstractBlock.Settings.copy(Blocks.SLIME_BLOCK)
-            .noCollision()
-            .nonOpaque()
-            .sounds(BlockSoundGroup.SLIME)
-            .velocityMultiplier(0.75f)
-            .strength(0.1f));
+        BLOOD_BLOCK = new BloodBlock(AbstractBlock.Settings.copy(Blocks.COBWEB)
+		    .noCollision()
+		    .nonOpaque()
+		    .sounds(BlockSoundGroup.SLIME)  // Using SNOW for quieter sounds (optional)
+		    .breakInstantly()
+		    .velocityMultiplier(1.0f)      // No movement slowing
+		    .jumpVelocityMultiplier(1.0f)  // Normal jumping
+		    .slipperiness(0.6f));          // Normal slipperiness
 
         BLOOD_ITEM = new Item(new FabricItemSettings());
 
