@@ -2,7 +2,7 @@
 
 A Minecraft mod for adding blood to the game.
 
-**Written by Deepseek AI for Minecraft v1.18.2.**
+**Written by Deepseek AI for Minecraft v1.18.2 Fabric.**
 
 ## History
 
