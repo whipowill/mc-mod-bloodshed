@@ -13,12 +13,17 @@ I wanted a gore mod and couldn't find one for Fabric on v1.18.2, but I did find 
 ```json
 {
   "enabled": true,
-  "bloodFadeTime": 30,
+  "bloodFadeTime": 15,
   "goreValue": 1.0,
   "noBleedEntities": [
     "minecraft:skeleton",
     "minecraft:stray",
-    "minecraft:wither_skeleton"
+    "minecraft:wither_skeleton",
+    "minecraft:blaze",
+    "minecraft:magma_cube",
+    "minecraft:slime",
+    "minecraft:iron_golem",
+    "minecraft:snow_golem"
   ]
 }
 ```

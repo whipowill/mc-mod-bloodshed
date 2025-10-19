@@ -59,3 +59,5 @@ hs_err_pid*
 .vscode/
 .history/
 *.code-workspace
+
+.aider*

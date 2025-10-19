@@ -21,7 +21,12 @@ public class BloodshedConfig {
     public List<String> noBleedEntities = Arrays.asList(
         "minecraft:skeleton",
         "minecraft:stray",
-        "minecraft:wither_skeleton"
+        "minecraft:wither_skeleton",
+        "minecraft:blaze",
+        "minecraft:magma_cube",
+        "minecraft:slime",
+        "minecraft:iron_golem",
+        "minecraft:snow_golem"
     );
     
     public static BloodshedConfig load() {
